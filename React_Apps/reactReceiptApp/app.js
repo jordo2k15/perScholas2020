@@ -1,4 +1,5 @@
-console.log(receipts);
+// Receipt Application using React.
+
 class App extends React.Component {
   state = {
     receipts
