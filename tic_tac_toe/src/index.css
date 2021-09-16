@@ -8,7 +8,7 @@
 
 body {
   background-color: #FFA07A;
-  color: #c05531;
+  color: #c55834;
   font-family: "Roboto", sans-serif;
   display: flex;
   /* align-items: center; */
@@ -22,8 +22,8 @@ h1 {
 }
 
 .board {
-  border: 1rem solid #E9967A;
-  background: #ff652f;
+  border: 1rem solid #cc7c61;
+  background: #e26335;
   width: 500px;
   height: 500px;
   display: grid;
