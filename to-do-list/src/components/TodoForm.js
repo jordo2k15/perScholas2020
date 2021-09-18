@@ -3,17 +3,19 @@ import React, {useState} from 'react'
 function TodoList(props) {
     const [input, setInput] = useState('')
 
-    const handleChange = E => {
-        setInput(E.target.value);
+    const handleChange = e => {
+        setInput(e.target.value);
     };
 
     const handleSubmit = e => {
         e.preventDefault();
+// Review tutorial for better understanding of this line of code...
+// this is in relation to the Todolist Component and adding to the to do list 
 
-        // props.onSubmit({
-        //     id: Math.floor(Math.random() * 10000),
-        //     text: input
-        //});
+        props.onSubmit({
+            id: Math.floor(Math.random() * 10000),
+            text: input
+        });
         setInput('');
     
     };
