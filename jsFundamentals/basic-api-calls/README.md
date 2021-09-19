@@ -1,3 +1,28 @@
+# API CALLS
+
+API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.
+
+In other words, an API is the messenger that delivers your request to the provider that you're requesting it from and then delivers the response back to you.
+
+# API TYPES
+
+- Web APIs
+- Open APIs
+- Internal APIs
+- Partner APIs
+- Composite APIs
+
+----------------------------------------------------------
+
+# Resources:
+
+- https://stoplight.io/api-types/
+- https://pokeapi.co/docs/v2#pokemon
+- https://blog.logrocket.com/patterns-for-data-fetching-in-react-981ced7e5c56/
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
