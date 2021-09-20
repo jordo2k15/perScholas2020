@@ -3,28 +3,28 @@ import React from 'react';
 export default class FetchData extends React.Component {
     state = {
         loading: true,
-        pokemon: null
+        person: null
     }
     
 async componentDidMount(){
-        const url = 'https://pokeapi.co/api/v2/pokemon/';
+        const url = 'https://randomuser.me/api/';
         const response = await fetch(url);
         const data = await response.json();
-        this.setState({pokemon: data.results[0], loading: false });
+        this.setState({person: data.results[0], loading: false });
         console.log(data);
+
     }
 
     render() {
     return (
     <div>
-        {this.state.loading || !this.state.pokemon ? (
+        {this.state.loading || !this.state.person ? (
             <div>loading...</div>
         ) : ( 
              <div>
-                 <div>{this.state.pokemon.name}</div>
-                 <div>
-                 <img src={this.state.pokemon.name.sprites} alt={this.state.pokemon.name}/>
-             </div>
+                 <div><img src={this.state.person.picture.large}/></div>
+                 <div>{this.state.person.name.first}</div>
+                 <div>{this.state.person.name.last}</div>
              </div>
         )}
     </div>
