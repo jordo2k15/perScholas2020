@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 
 export default class FetchData extends React.Component {
     state = {
@@ -21,11 +22,21 @@ async componentDidMount(){
         {this.state.loading || !this.state.person ? (
             <div>loading...</div>
         ) : ( 
-             <div>
-                 <div><img src={this.state.person.picture.large}/></div>
-                 <div>{this.state.person.name.first}</div>
-                 <div>{this.state.person.name.last}</div>
+             <div className='info-card'>
+                 <div>
+                     <div>
+                     <img className='user-photo' src={this.state.person.picture.large} />
+                     </div>
+                     </div>
+                 <div className='user-name'>{this.state.person.name.first} {this.state.person.name.last}</div>
+        
+               <div className='about-user'> 
+                        <h4>Country</h4>
+                   <div>{this.state.person.nat}</div>
              </div>
+             </div>
+
+
         )}
     </div>
     );
