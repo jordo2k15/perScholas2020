@@ -5,13 +5,7 @@ export default class List extends Component {
     render() {
         return (
             <div className='row'>
-               <PokemonCard />
-               <PokemonCard /> 
-               <PokemonCard /> 
-               <PokemonCard /> 
-               <PokemonCard /> 
-               <PokemonCard /> 
-               <PokemonCard />  
+              <PokemonCard />
             </div>
         )
     }
