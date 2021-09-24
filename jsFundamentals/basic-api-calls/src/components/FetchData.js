@@ -28,7 +28,7 @@ async componentDidMount(){
                      <img className='user-photo' src={this.state.person.picture.large} />
                      </div>
                      </div>
-                 <div className='user-name'>{this.state.person.name.first} {this.state.person.name.last}</div>
+                 <div className='user-name'>{this.state.person.login.username}</div>
         
                <div className='about-user'> 
                         <h4>Country</h4>
