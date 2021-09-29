@@ -30,8 +30,8 @@ async componentDidMount(){
                      </div>
                  <div className='user-name'>{this.state.person.login.username}</div>
         
-               <div className='about-user'> 
-                        <h4>Country</h4>
+               <div className='about-user'><h3>Info</h3> 
+                        <h4>Nationality:</h4>
                    <div>{this.state.person.nat}</div>
              </div>
              </div>
