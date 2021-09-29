@@ -1,4 +1,5 @@
 import React from 'react';
+import {AiFillInfoCircle} from 'react-icons/ai';
 import '../App.css';
 
 export default class FetchData extends React.Component {
@@ -25,14 +26,16 @@ async componentDidMount(){
              <div className='info-card'>
                  <div>
                      <div>
-                     <img className='user-photo' src={this.state.person.picture.large} />
+                     <img className='user-photo' src={this.state.person.picture.large} alt={this.state.person.picture.large}/>
                      </div>
                      </div>
                  <div className='user-name'>{this.state.person.login.username}</div>
         
-               <div className='about-user'><h3>Info</h3> 
-                        <h4>Nationality:</h4>
-                   <div>{this.state.person.nat}</div>
+               <div className='about-user'>
+               <div>
+                  <button onClick = {this.state}> <AiFillInfoCircle /> </button>
+                  </div>
+                        
              </div>
              </div>
 
