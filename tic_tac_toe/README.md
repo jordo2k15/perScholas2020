@@ -1,5 +1,5 @@
                                                           
-                                                          #React Tic Tac Toe Game with Hooks
+# React Tic Tac Toe Game with Hooks
                                                       
 Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don’t work inside classes — they let you use React without classes. (We don’t recommend rewriting your existing components overnight but you can start using Hooks in the new ones if you’d like.)
 
@@ -18,13 +18,13 @@ React provides a few built-in Hooks like useState. You can also create your own 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 
-                                                                      #Tic-tac-toe 
+# Tic-tac-toe 
                                                                       
 (American English), noughts and crosses (Commonwealth English and British English), or Xs and Os/“X’y O’sies” (Ireland), is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner. It is a solved game with a forced draw assuming best play from both players. -(Thanks Wikipedia)
 
 
 
-                                                                       #History
+# History
                                                                        
 Games played on three-in-a-row boards can be traced back to ancient Egypt,[5] where such game boards have been found on roofing tiles dating from around 1300 BC.[6]
 
