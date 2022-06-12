@@ -13,6 +13,7 @@ export default class PokemonCard extends Component {
                 <div className='card'>
                     <div className='card-header'>
                         <h1>{name}</h1>
+                        
                         </div>
                     </div>
                 </div>
